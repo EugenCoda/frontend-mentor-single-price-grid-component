@@ -41,7 +41,6 @@ section {
   width: 50%;
   height: 540px;
   margin: auto;
-
   box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -68,6 +67,7 @@ section {
   font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 10px;
+  line-height: 1.8;
 }
 
 .bottom {
@@ -157,23 +157,72 @@ section {
 
 @media (max-width: 1000px) {
   body {
-    height: 150vh;
+    height: 120vh;
   }
   section {
     width: 80%;
-    height: 100%;
-    margin: 100px 0;
+    height: 80%;
+    border-radius: 7px;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  .top {
+    height: 37%;
+    padding: 25px;
+  }
+
+  .top h2 {
+    margin-bottom: 15px;
+  }
+
+  .top p {
+    font-size: 0.8rem;
+    line-height: 2;
+    padding-bottom: 20px;
   }
 
   .bottom {
+    height: 63%;
     grid-template-columns: 1fr;
+  }
+  .bottom h2 {
+    font-size: 1.1rem;
   }
 
   .bottom-left {
+    padding: 25px;
     border-radius: 0;
   }
 
+  .bottom-left p {
+    font-size: 0.9rem;
+  }
+
+  .offer .dollar {
+    font-size: 2rem;
+  }
+
+  .btn {
+    margin-top: 25px;
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+
   .bottom-right {
+    padding: 25px;
     border-radius: 0 0 7px 7px;
+  }
+
+  .bottom-right p {
+    font-size: 0.8rem;
   }
 }
