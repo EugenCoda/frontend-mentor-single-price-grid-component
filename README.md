@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/EugenCoda/frontend-mentor-single-price-grid-component)
-- Live Site URL: [Single Price Grid Component](https://your-live-site-url.com)
+- Live Site URL: [Single Price Grid Component](https://single-price-grid-component-frontend-challenge.netlify.app/)
 
 ## My process
 
